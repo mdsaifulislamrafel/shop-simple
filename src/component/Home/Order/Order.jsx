@@ -14,7 +14,7 @@ const Order = () => {
         const orderData = {
             ...formData,
             image: data.image,
-            name: data.name,
+            product: data.name,
             price: data.price
         }
         const res = await axiosPublic.post('/order', orderData);
@@ -39,15 +39,6 @@ const Order = () => {
                             placeholder="Your Name"
                             className="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                             {...register('name', { required: true })}
-                        />
-                    </div>
-
-                    <div className="flex flex-col">
-                        <input
-                            type="email"
-                            placeholder="Your Email"
-                            className="w-full p-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
-                            {...register('email', { required: true })}
                         />
                     </div>
 

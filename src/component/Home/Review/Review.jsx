@@ -8,12 +8,12 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 const Review = () => {
     // Dummy reviews data
     const reviews = [
-        { name: "Al-Amin", review: "Good products original", avatar: "/path-to-avatar" },
-        { name: "Md. Monir", review: "অসাধারণ ভালো, একদম অরিজিনাল প্রডাক্ট।", avatar: "/path-to-avatar" },
-        { name: "Ishrat Nahar", review: "Perfect quality... Pure Thanaka পেয়েছি", avatar: "/path-to-avatar" },
-        { name: "Shammi A.", review: "Thanaka face pack just awesome, omg my face instantly Bright 😍 I love it", avatar: "/path-to-avatar" },
-        { name: "Shammi A.", review: "Thanaka face pack just awesome, omg my face instantly Bright 😍 I love it", avatar: "/path-to-avatar" },
-        { name: "Shammi A.", review: "Thanaka face pack just awesome, omg my face instantly Bright 😍 I love it", avatar: "/path-to-avatar" },
+        { name: "Al-Amin", review: "Good products original", avatar: "https://microbiology.nstu.edu.bd/uploads/2023/12/medium_1703512759.jpg" },
+        { name: "Md. Monir", review: "অসাধারণ ভালো, একদম অরিজিনাল প্রডাক্ট।", avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-mPeLx-uQRtn4yQUnGL3uxQf3SgHR3imVg&s" },
+        { name: "Ishrat Nahar", review: "Perfect quality... Pure Thanaka পেয়েছি", avatar: "https://www.observerbd.com/2024/04/17/ob_1713285208.jpg" },
+        { name: "Shammi A.", review: "Thanaka face pack just awesome, omg my face instantly Bright 😍 I love it", avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvLV_HEdHCHEIF-JkTzfEe4tS5ok1L2APNsg&s" },
+        { name: "Shammi A.", review: "Thanaka face pack just awesome, omg my face instantly Bright 😍 I love it", avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2_N0x4XsdoNdn-rsqcVPFEpxY8AMY-fBjQ&s" },
+        { name: "Shammi A.", review: "Thanaka face pack just awesome, omg my face instantly Bright 😍 I love it", avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCKR7OiVvOyLq90LRiYXpGt6leSuHqsZ1TUg&s" },
     ];
 
     return (
